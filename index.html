@@ -10,17 +10,26 @@
     <script src="https://kit.fontawesome.com/52af0d8c20.js" crossorigin="anonymous"></script>
 </head>
 
-<body class="bg-gray-100">
+<body class="bg-gray-50">
     <header class="p-4 bg-[#000503] flex justify-between items-center  max-w-full">
         <img src="./static/assets/logo.png" alt="RK Green Energy India Pvt Ltd." width="56px">
+        <nav class="hidden md:block text-gray-50">
+            <ul class="flex space-x-4">
+                <li><a href="/home">Home</a></li>
+                <li class="text-primary-950"><a href="/home">Blog</a></li>
+                <li><a href="/home">Shop</a></li>
+                <li><a href="/home">About</a></li>
+                <li><a href="/home">Contact Us</a></li>
+            </ul>
+        </nav>
         <div class="right-elements flex space-x-4">
-            <div class="cart text-white">
+            <div class="cart text-gray-50">
                 <i class="fa-solid fa-magnifying-glass fa-lg"></i>
             </div>
             <div class="burger w-10">
-                <div class="item bg-gray-950 h-0.5 w-full item-1 mb-2 rounded-md"></div>
-                <div class="item bg-gray-950 h-0.5 w-full item-2 mb-2 rounded-md"></div>
-                <div class="item bg-gray-950 h-0.5 w-full item-3 rounded-md"></div>
+                <div class="item bg-gray-50 h-0.5 w-full item-1 mb-2 rounded-md"></div>
+                <div class="item bg-gray-50 h-0.5 w-full item-2 mb-2 rounded-md"></div>
+                <div class="item bg-gray-50 h-0.5 w-full item-3 rounded-md"></div>
             </div>
         </div>
 
@@ -132,22 +141,9 @@
             <a href="#" class="text-blue-600 block text-center">Load more</a>
         </section>
 
-        <section class="newsletter mt-6 bg-white p-4">
-            <h2 class="text-2xl font-bold mb-4 text-center">Newsletter</h2>
-            <p class="text-center">Want to stay updated about the latest news and articles on
-                our products
-                and
-                developments in green energy.</p>
-            <div class="input-container mt-4 flex md:w-1/4 mx-auto justify-center">
-                <input type="email" class="p-2 px-4 w-full rounded-l-md text-black-950 bg-gray-100"
-                    placeholder="yourmail@example.com">
-                <button
-                    class="btn bg-primary-950 font-bold px-4 text-black-950 p-2 focus:outline-none rounded-r-md btn-primary">Subscribe</button>
 
-            </div>
-        </section>
 
-        <section class="stats p-4 ">
+        <section class="stats bg-white mt-6 p-4 ">
             <h2 class="text-2xl mb-4 font-bold text-center">Our Stats</h2>
             <div class="wrapper  flex justify-center flex-wrap">
 
@@ -170,7 +166,17 @@
             </div>
         </section>
 
-        <section class="products bg-white p-4">
+        <section class="newsletter  bg-gray-50 p-4">
+            <h2 class="text-2xl font-bold mb-4">Subscribe our newsletter to stay updated with latest updates.</h2>
+            <div class="input-container mt-4 flex md:w-1/4 mx-auto justify-center">
+                <input type="email" class="p-2 px-4 w-full rounded-l-md text-black-950 bg-white"
+                    placeholder="yourmail@example.com">
+                <button
+                    class="btn bg-primary-950 font-bold px-4 text-black-950 p-2 focus:outline-none rounded-r-md btn-primary">Subscribe</button>
+            </div>
+        </section>
+
+        <section class="products bg-secondary-800 text-white p-4">
             <h2 class="text-2xl text-center font-bold">Interested in buying solar products</h2>
             <p class="my-3 md:text-center">Whether you are a distributor or consumer we have got you covered.We offer
                 buy
@@ -178,7 +184,7 @@
                 options for distributors and retailers who want to buy solar products in bulk.</p>
             <div class="wrapper w-full flex items-center md:justify-center">
                 <a href="#">
-                    <button class="btn-primary mx-auto p-2 px-4 font-bold bg-primary-950 rounded-md">View
+                    <button class="btn-primary text-black-950 mx-auto p-2 px-4 font-bold bg-primary-950 rounded-md">View
                         Products</button>
                 </a>
             </div>
