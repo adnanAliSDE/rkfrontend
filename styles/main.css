@@ -726,6 +726,11 @@ video {
   margin-right: auto;
 }
 
+.my-3{
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
 .mb-1{
   margin-bottom: 0.25rem;
 }
@@ -1912,6 +1917,11 @@ video {
   background-color: rgb(134 239 172 / var(--tw-bg-opacity));
 }
 
+.bg-primary-950{
+  --tw-bg-opacity: 1;
+  background-color: rgb(151 254 51 / var(--tw-bg-opacity));
+}
+
 .bg-secondary-950{
   --tw-bg-opacity: 1;
   background-color: rgb(16 69 52 / var(--tw-bg-opacity));
@@ -1922,9 +1932,24 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-primary-950{
+.bg-red-600{
   --tw-bg-opacity: 1;
-  background-color: rgb(151 254 51 / var(--tw-bg-opacity));
+  background-color: rgb(220 38 38 / var(--tw-bg-opacity));
+}
+
+.bg-gray-50{
+  --tw-bg-opacity: 1;
+  background-color: rgb(249 250 251 / var(--tw-bg-opacity));
+}
+
+.bg-gray-500{
+  --tw-bg-opacity: 1;
+  background-color: rgb(107 114 128 / var(--tw-bg-opacity));
+}
+
+.bg-black-950{
+  --tw-bg-opacity: 1;
+  background-color: rgb(26 26 26 / var(--tw-bg-opacity));
 }
 
 .decoration-slice{
@@ -2714,6 +2739,14 @@ h6 {
 
   .md\:w-\[33\%\]{
     width: 33%;
+  }
+
+  .md\:justify-center{
+    justify-content: center;
+  }
+
+  .md\:text-center{
+    text-align: center;
   }
 
   .md\:text-3xl{
