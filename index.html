@@ -6,12 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RK Solar | Blog</title>
     <link rel="shortcut icon" href="./static/assets/favicon.png" type="image/png">
-    <link rel="stylesheet" href="styles/main.css">
-    <script src="https://kit.fontawesome.com/52af0d8c20.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles/build.css">
+    <script src="https://kit.fontawesome./52af0d8c20.js" crossorigin="anonymous"></script>
 </head>
 
 <body class="bg-gray-50">
-    <header class="p-4 bg-[#000503] flex justify-between items-center  max-w-full">
+    <header class="p-4 bg-secondary-200 flex justify-between items-center  max-w-full">
         <img src="./static/assets/logo.png" alt="RK Green Energy India Pvt Ltd." width="56px">
         <nav class="hidden md:block text-gray-50">
             <ul class="flex space-x-4">
@@ -42,7 +42,7 @@
         </div>
          -->
     </header>
-    
+
     <main>
         <h2 class="px-4 text-2xl text-center md:text-3xl font-bold text-black-950 mt-6 mb-3">Our Blog</h2>
         <p class="px-4 text-center mx-auto text-gray-700 max-w-5xl">Explore our blog for valuable insights on solar
@@ -171,7 +171,7 @@
             </div>
         </section>
 
-        <section class="newsletter  bg-gray-50 p-4">
+        <section class="newsletter  bg-gray-50 p-4 my-6">
             <h2 class="text-2xl md:text-center font-bold mb-4">Subscribe our newsletter to stay updated with latest
                 updates.</h2>
             <div class="input-container mt-4 flex md:w-1/4 mx-auto justify-center">
@@ -182,7 +182,7 @@
             </div>
         </section>
 
-        <section class="products bg-secondary-800 text-white p-4">
+        <section class="products bg-secondary-800 text-white py-6 p-4">
             <h2 class="text-2xl text-center font-bold">Interested in buying solar products</h2>
             <p class="my-3 md:text-center">Whether you are a distributor or consumer we have got you covered.We offer
                 buy
@@ -196,8 +196,79 @@
             </div>
         </section>
     </main>
-    <footer class="bg-secondary-950 text-gray-300">
-        <section class="copy bg-black-950 text-white text-center p-4">&copy; RK Green Energy India Pvt Ltd.</section>
+    <footer class="bg-secondary-400 pt-6 mt-6 text-gray-300">
+        <section class="company-info md:w-3/4 mx-auto px-4 mb-3">
+            <div class="address flex items-center">
+                <img src="./static/assets/logo.png" class="w-14 mr-5" alt="RK Green energy India pvt ltd">
+                <div class="text">
+                    <h4 class="text-md font-bold text-white">RK Green Energy India pvt LTD.</h4>
+                    <p><i class="text-white fa-solid fa-location-dot mr-2 mt-2"></i><a
+                            href="https://maps.app.goo.gl/kMkxY5x695gWz2zF9">E-118, SECTOR-07, NOIDA,
+                            Gautam
+                            Buddha
+                            Nagar,Uttar Pradesh, 201301
+                        </a></p>
+                </div>
+            </div>
+            <div class="contact mt-3">
+                <div class="phone mb-2"> <i class="text-white fa-solid fa-phone mr-2"></i> <a
+                        href="tel:+918630977720">+91 8630977720</a></div>
+                <div class="mail mb-2"> <i class="text-white fa-solid fa-envelope mr-2"></i>
+                    <a
+                        href="mailto:email@example.com?cc=secondemail@example.com&bcc=lastemail@example.com">mail@rkgreenenergyindia.com</a>
+                </div>
+            </div>
+        </section>
+        <section class="sitemap mt-5 px-4 md:mb-6">
+            <div class="wrapper mx-auto md:w-3/4 md:flex justify-between">
+                <div class="blog md:mb-0 mb-4">
+                    <h4 class="text-md text-white font-bold">Our Blog</h4>
+                    <ul class="mt-3">
+                        <li class="mb-1.5"><a href="">Blogs</a></li>
+                        <li class="mb-1.5"><a href="">Authors</a></li>
+                    </ul>
+                </div>
+                <div class="shop mb-4 md:mb-0">
+                    <h4 class="text-md text-white font-bold">Shop</h4>
+                    <ul class="mt-3">
+                        <li class="mb-1.5"><a href="/">Products</a></li>
+                        <li class="mb-1.5"><a href="/">Categories</a></li>
+                        <li class="mb-1.5"><a href="/">Get a quote</a></li>
+                        <li class="mb-1.5"><a href="/">Return Policy</a></li>
+                        <li class="mb-1.5"><a href="/">Orders</a></li>
+                    </ul>
+                </div>
+
+                <div class="company mb-4 md:mb-0">
+                    <h4 class="text-md text-white font-bold">Company</h4>
+                    <ul class="mt-3">
+                        <li class="mb-1.5"><a href="">Privacy Policy</a></li>
+                        <li class="mb-1.5"><a href="">Terms and Conditions</a></li>
+                        <li class="mb-1.5"><a href="">About Us</a></li>
+                        <li class="mb-1.5"><a href="">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="social hidden md:block mb-4 md:mb-0">
+                    <h4 class="text-md text-white font-bold">Connect with us</h4>
+                    <ul class="mt-3">
+                        <li class="mb-1.5"><a href="">Facebook</a></li>
+                        <li class="mb-1.5"><a href="">Instagram</a></li>
+                        <li class="mb-1.5"><a href="">LinkedIn</a></li>
+                        <li class="mb-1.5"><a href="">X (Formerly twitter)</a></li>
+                    </ul>
+                </div>
+            </div>
+
+        </section>
+        <section class="md:hidden social-icons flex space-x-4 px-4 mt-5 mb-6 text-white">
+            <a href=""><i class="text-xl fa-brands fa-square-facebook"></i></a>
+            <a href=""><i class="text-xl fa-brands fa-square-x-twitter"></i></a>
+            <a href=""><i class="text-xl fa-brands fa-square-instagram"></i></a>
+            <a href=""><i class="text-xl fa-brands fa-linkedin"></i></a>
+            <a href=""></a>
+        </section>
+        <section class="copy bg-secondary-200 text-white text-center p-4">&copy; RK Green Energy India Pvt Ltd.
+        </section>
     </footer>
 </body>
 
