@@ -6,7 +6,7 @@
   "scripts": {
     "start": "vite",
     "watch": "npx tailwindcss -i ./styles/input.css -o ./styles/main.css --watch",
-    "build": "vite build",
+    "build": "npx tailwindcss -i styles/input.css -o styles/main.css --minify",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
